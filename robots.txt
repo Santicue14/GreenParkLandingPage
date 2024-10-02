@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /
+
+Sitemap: https://parquizacionesgreenpark.vercel.app/sitemap.xml
