@@ -3,14 +3,14 @@ import Image from "astro/components/Image.astro";
 import ImgPresentacion from '/public/foto-presentacion.webp'
 ---
 
-<main class="grid grid-cols-1 md:grid-cols-2 gap-8 p-6">
+<main class="grid grid-cols-1 md:grid-cols-2 gap-8 p-6 h-">
     <!-- Sección de detalles -->
     <div class="detalles flex flex-col justify-center">
         <!-- Descripción del servicio -->
         <div class="descripcion ">
             <h2 class="text-4xl font-bold mb-4">¡Dejá tu <span class="font-semibold text-darkestGreen">jardín</span> impecable!</h2>
             <p class="text-lg leading-relaxed text-gray-700 mb-6">
-                En <span class="text-darkestGreen font-semibold">Parquizaciones Green Park</span>, se transforman espacios. Ya sea que necesites instalar un sistema de riego, nivelar el terreno o colocar grama bahiana, o cualquier otra tarea. Tenemos todo cubierto para que tu jardín quede impecable y listo para las juntadas al aire libre.
+                En <span class="text-darkestGreen font-semibold">Parquizaciones Green Park</span>, se transforman espacios. Ya sea que necesites instalar un sistema de riego, nivelar el terreno o colocar grama bahiana, o cualquier otra tarea sobre tu jardín. Tenemos todo cubierto para que tu jardín quede impecable y listo para las juntadas al aire libre.
             </p>
         </div>
         
@@ -21,7 +21,7 @@ import ImgPresentacion from '/public/foto-presentacion.webp'
             </a>
         </div>
     </div>
-    <div class="imagen">
+    <div class="imagen h-fit">
         <Image src={ImgPresentacion} alt="Transformación de jardín realizada por Parquizaciones Green Park, con grama bahiana y sistema de riego instalado" class="w-full h-auto object-cover rounded-lg shadow-lg" />
     </div>
 </main>
