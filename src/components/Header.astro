@@ -6,15 +6,17 @@ const title = "Parquizaciones Green Park";
 
 <header class="flex px-4 justify-between items-center">
   <a href="/">
-    <div class="logo flex items-center w-full">
+    <div class="logo flex items-center w-full" style="min-height: 60px;">
       <Image
         src={ImagenLogo}
         alt={`Logo de Parquizaciones Green Park, especialistas en diseño y mantenimiento de jardines`}
         class="size-16 mr-4"
+        style="width: 64px; height: 64px; max-width: 100%; max-height: 100%;"
       />
       <h1 class="title hidden md:flex">{title}</h1>
     </div>
   </a>
+  
 
   <!-- Icono visible solo en pantallas pequeñas -->
   <div class="icon block sm:hidden">
@@ -24,8 +26,8 @@ const title = "Parquizaciones Green Park";
   </div>
 
   <!-- Menu visible solo en pantallas grandes -->
-  <div class="menu-display hidden md:flex">
-    <nav class="flex md:flex-row h-full gap-4 w-fit mr-11">
+  <div class="menu-display relative hidden md:flex">
+    <nav class="flex md:flex-row gap-1 h-full md:gap-4 w-fit mr-11">
       <a href="#servicios" class="nav-section h-full flex items-center w-fit">Servicios</a>
       <a href="#galeria" class="nav-section h-full flex items-center">Galería</a>
       <a href="#contacto" class="nav-section h-full flex items-center">Contactanos</a>
